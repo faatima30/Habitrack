@@ -2,27 +2,40 @@
 
 # Overview
 
-focuseLearn is a JavaScript-based web application designed to help students organize their learning resources and stay focused during study sessions.
-The app combines a resource manager with a focus timer, allowing users to store study materials, preview them, and track focused study time — all in one place.
+FocusLearn is a JavaScript-based learning dashboard designed to help mentorship students stay focused, organized, and consistent in their learning journey.
+The application combines task planning, focused study sessions, motivation, and progress tracking into one simple, responsive web app.
 
-This project emphasizes DOM manipulation, local storage, and interactive JavaScript features while solving a real-world productivity problem faced by students.
+FocusLearn helps students plan what to study today, organize weekly or monthly goals, track focused study sessions, and reflect on their progress over time.
 
 # Problem
 
-Many students struggle to manage learning resources scattered across links, videos, and documents.
-Additionally, staying focused while studying is difficult without simple tools to track time and progress.
+Many mentorship students struggle with:
 
-Existing solutions are often complex or require multiple apps.
+Knowing what to focus on each day. 
+
+Planning tasks without executing them. 
+
+Studying without structure. 
+
+Losing motivation over time. 
+
+Not tracking learning progress or focus time. 
+
+
 
 # Solution
 
-focuseLearn provides a simple and lightweight solution where students can:
+FocusLearn solves this problem by providing:
 
-Save and organize study resources
-Preview resources directly in the browser
-Run focused study sessions with a built-in timer
-Track study progress without needing multiple tools
-All data is stored locally, ensuring simplicity and privacy.
+A task planner for today, weekly, or monthly goals
+
+A focus timer for structured study sessions
+
+A resource hub for learning materials
+
+A dashboard that shows motivation, statistics, and progress
+
+A dark mode for comfortable studying
 
 # Technologies Used
 
@@ -37,31 +50,70 @@ Local Storage – Persistent data storage
 API Integration – Fetching additional data
 
 # Key Features
-🔹 Resource Management 
-🔹 Resource Preview 
-🔹 Focus Timer 
-🔹 User Interaction & UX 
+1. Dynamic Content
+
+Dashboard updates automatically based on user activity
+
+Tasks, focus sessions, and resources are rendered dynamically using JavaScript
+
+2. Task Planning
+
+Create tasks for today, weekly, or monthly planning
+
+Mark tasks as completed or delete them
+
+Filter tasks based on selected time range
+
+3. Focus Timer
+
+25-minute focus session timer
+
+Visual progress bar and remaining time display
+
+Automatically saves completed focus sessions
+
+4. Resource Management
+
+Add learning resources such as documents, videos, and links
+
+Track study status for each resource
+
+5. Dashboard & Statistics
+
+View completed tasks and focus sessions
+
+Track consistency and learning progress
+
+Display simple productivity statistics
+
+6. Motivation & Quotes
+
+Daily motivational quotes fetched from an external API
+
+Fallback message displayed if the API fails
 
 
 # How to Run the Project
 
-Clone the repository: git clone <repository-url>
+Clone the repository or download the project files
 
-Open index.html in your browser.
+Open the project folder
 
-No additional dependencies or setup required.
+Open index.html in a web browser
+
+Start using FocusLearn immediately (no installation required)
 
 # Future Improvements
 
-Custom focus durations
+Custom focus session lengths
 
-Resource search and filtering
+Weekly reset option
 
-Study analytics and charts
+Advanced statistics charts
 
-Cloud storage support
+Cloud-based user accounts
 
-User accounts
+Notifications or reminders
 
 # Author
 Fatima
