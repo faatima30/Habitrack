@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Habits</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <aside class="sidebar">
+        <div class="logo">HabitTrack</div>
+        <ul class="menu">
+          <li><a href="index.html">Dashboard</a></li>
+          <li class="active"><a href="#">Manage Habits</a></li>
+        </ul>
+      </aside>
+      <main class="main-content">
+        <div class="topbar">
+          <button class="toggle-btn">🌙</button>
+        </div>
+        <div class="content">
+          <h1>Manage Your Habits</h1>
+          <button class="add-btn" id="addHabitBtn">+ Add Habit</button>
+          <!-- Habit Cards -->
+          <div class="latest-habits" id="habitContainer"></div>
+        </div>
+      </main>
+    </div>
+    <!-- Habit Form Modal -->
+    <div id="habitModal" class="modal">
+      <div class="modal-content">
+        <h3 id="formTitle">Add Habit</h3>
+        <input type="text" id="habitName" placeholder="Habit name" />
+        <input type="text" id="habitDesc" placeholder="Habit description" />
+        <input type="number" id="habitGoal" placeholder="Goal (days)" min="1" />
+        <input
+          type="number"
+          id="habitProgress"
+          placeholder="Progress (days)"
+          min="0"
+        />
+        <div class="modal-actions">
+          <button class="done-btn" id="saveHabitBtn">Save</button>
+          <button class="delete-btn" id="cancelHabitBtn">Cancel</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
